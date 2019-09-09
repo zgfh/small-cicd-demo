@@ -1,0 +1,5 @@
+app:  
+  git: git@github.com:zgfh/small-cicd-demo.git
+  branch: master
+  notify:
+    dingding: xxxxxxx
