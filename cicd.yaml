@@ -1,5 +1,5 @@
-app:  
-  git: git@github.com:zgfh/small-cicd-demo.git
-  branch: master
-  notify:
-    dingding: xxxxxxx
+app:  # 应用名。该名称必须和docker-compose.yaml 中应用当名称一致
+  git: git@github.com:zgfh/small-cicd-demo.git # 代码地址，请替换为你的代码仓库的地址，并确保该服务器的key能拉去代码
+  branch: master # 自动更新的分支
+  notify: # 通知
+    dingding: xxxxxxx  # 通知将发生至钉钉群的 webhook token
