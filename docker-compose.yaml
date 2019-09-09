@@ -1,2 +1,2 @@
 app:
-  image: nginx
+  image: app
